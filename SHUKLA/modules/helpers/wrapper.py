@@ -68,7 +68,7 @@ def inline_wrapper(func):
                     [
                         InlineKeyboardButton(
                             "💥 Deploy Shukla Userbot ✨",
-                            url=f"https://github.com/itzshukla/STRANGER-OPUSERBOT2.0"
+                            url=f"https://github.com/Vikashya12/DHPR-OP"
                         )
                     ]
                 ]
@@ -78,9 +78,9 @@ def inline_wrapper(func):
                     results=[
                         (
                             InlineQueryResultPhoto(
-                                photo_url=f"https://telegra.ph/file/7a2e0a67e160deb60e48b.jpg",
+                                photo_url=f"https://telegra.ph/file/dce89ea79f06caa53d734.jpg",
                                 title="🥀 Shukla Userbot ✨",
-                                thumb_url=f"https://telegra.ph/file/7a2e0a67e160deb60e48b.jpg",
+                                thumb_url=f"https://telegra.ph/file/dce89ea79f06caa53d734.jpg",
                                 description=f"🌷 Deploy Your Own SHUKLAUSERBOT🌿...",
                                 caption=f"<b>🥀 Welcome » To » Shukla 🌷\n✅ Userbot {__version__} ✨...</b>",
                                 reply_markup=InlineKeyboardMarkup(button),
@@ -98,7 +98,7 @@ def inline_wrapper(func):
                             InlineQueryResultArticle(
                                 title="",
                                 input_message_content=InputTextMessageContent(
-                                    f"||**🥀 Please, Deploy Your Own Shukla Userbot❗...\n\nRepo:** <i>https://github.com/itzshukla/STRANGER-OPUSERBOT2.0/</i>||"
+                                    f"||**🥀 Please, Deploy Your Own Shukla Userbot❗...\n\nRepo:** <i>https://github.com/Vikashya12/DHPR-OP/</i>||"
                                 ),
                             )
                         )
