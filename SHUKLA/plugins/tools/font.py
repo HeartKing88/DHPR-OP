@@ -196,7 +196,7 @@ async def style(c, m):
 __NAME__ = " Fᴏɴᴛ "
 __MENU__ = """
 `.font` - ***:* ᴄᴏɴᴠᴇʀᴛs sɪᴍᴩʟᴇ ᴛᴇxᴛ ᴛᴏ ʙᴇᴀᴜᴛɪғᴜʟ ᴛᴇxᴛ ʙʏ ᴄʜᴀɴɢɪɴɢ ɪᴛ's ғᴏɴᴛ.**
-`.write` - **ᴍᴀᴋᴇs ғɪɢʟᴇᴛ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ Example:\n\n`/figlet SHIVANSH PAPA**
+`.write` - **ᴍᴀᴋᴇs ғɪɢʟᴇᴛ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ Example:\n\n`/figlet DHPR**
 """
 
               
