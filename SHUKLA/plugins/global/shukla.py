@@ -1,6 +1,6 @@
 # Powered By // @SHIVANSH474 //
 
-__NAME__ = "Sʜᴜᴋʟᴀ"
+__NAME__ = "DHPR"
 __MENU__ = """
- **@SHIVANSH474**
+ **@OWNER_DHPR**
 """
