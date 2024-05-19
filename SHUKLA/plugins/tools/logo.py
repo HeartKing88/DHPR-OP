@@ -39,7 +39,7 @@ def gay_calculator_command(client, message: Message):
 @app.on_message(cdz(["logo"]) & (filters.me | filters.user(SUDO_USER)))
 async def logo(app, msg: Message):
     if len(msg.command) == 1:
-       return await msg.reply_text("Usage:\n\n /logo SHASHANK")
+       return await msg.reply_text("Usage:\n\n /logo DHPR")
     logo_name = msg.text.split(" ", 1)[1]
     API = f"https://api.sdbots.tech/logohq?text={logo_name}"
     req = requests.get(API).url
@@ -49,7 +49,7 @@ async def logo(app, msg: Message):
 @app.on_message(cdz(["animelogo"]) & (filters.me | filters.user(SUDO_USER)))
 async def logo(app, msg: Message):
     if len(msg.command) == 1:
-       return await msg.reply_text("Usage:\n\n /animelogo SHASHANK")
+       return await msg.reply_text("Usage:\n\n /animelogo DHPR")
     logo_name = msg.text.split(" ", 1)[1]
     API = f"https://api.sdbots.tech/anime-logo?name={logo_name}"
     req = requests.get(API).url
@@ -58,7 +58,7 @@ async def logo(app, msg: Message):
   
 __NAME__ = "Lᴏɢᴏ"
 __MENU__ = """
-`.logo` - ***:* .logo SHASHANK.**
-`.animelogo` - **.animelogo SHUKLA**
+`.logo` - ***:* .logo DHPR.**
+`.animelogo` - **.animelogo DHPR**
 `.kiner` - ***:* .Gay Percentage **
 """
