@@ -74,7 +74,7 @@ async def ping(client: Client, message: Message):
     await message.delete()
     await r.edit(
         f"𝗥𝗘𝗣𝗢 ⁂\n\n"
-        f"[💫 𝐑ᴇᴘᴏ 💫](https://t.me/gaddari_karabe)\n"
+        f"[💫 𝐑ᴇᴘᴏ 💫]()\n"
     )    
 
 
