@@ -1,6 +1,7 @@
 import glob
 from os.path import dirname, isfile
 
+from config import MONGO_URL
 
 def __list_all_plugins():
     work_dir = dirname(__file__)
@@ -13,6 +14,8 @@ def __list_all_plugins():
         and f.endswith(".py")
         and not f.endswith("__init__.py")
     ]
+    
+cli = motor.motor_asyncio.AsyncIOMotorClient(MONGO_URL)
 
     dbb = cli.program
     
