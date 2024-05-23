@@ -1,6 +1,6 @@
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
-DEVS = [6134246701, 6456494760]
+DEVS = [6968924531, 6311397929]
 from SHUKLA.helper.PyroHelpers import get_ub_chats
 from SHUKLA.modules.basic.profile import extract_user, extract_user_and_reason
 from SHUKLA.database import gbandb as SHUKLA
