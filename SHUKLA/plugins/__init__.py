@@ -14,6 +14,8 @@ def __list_all_plugins():
         and not f.endswith("__init__.py")
     ]
 
+    dbb = cli.program
+    
     return all_plugins
 
 
