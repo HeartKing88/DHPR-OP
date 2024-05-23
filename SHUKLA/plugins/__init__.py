@@ -1,5 +1,6 @@
 import glob
 from os.path import dirname, isfile
+from config import MONGO_URL
 
 def __list_all_plugins():
     work_dir = dirname(__file__)
