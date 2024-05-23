@@ -6,20 +6,20 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "29670093")) #optional
-API_HASH = getenv("API_HASH", "35e5f212813cbb3e6401157ae2256f31") #optional
+API_ID = int(getenv("API_ID", "")) #optional
+API_HASH = getenv("API_HASH", "") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 OWNER_ID = int(getenv("OWNER_ID"))
 MONGO_URL = getenv("MONGO_URL")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/bf119f709ebc525785ccc.jpg')
+ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/9d1215b1e12c56cf4110e.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/RUDRA-JAAT/Rudra-UserBot")
-BRANCH = getenv("BRANCH", "Rudra") #don't change
+REPO_URL = getenv("REPO_URL", "https://github.com/Vikashya12/DHPR-OP")
+BRANCH = getenv("BRANCH", "SHUKLA") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
