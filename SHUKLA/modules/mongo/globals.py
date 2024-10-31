@@ -1,5 +1,5 @@
 from .core import mongodb
-from typing import Dict, List, Union
+from typing import List
 
 gdeldb = mongodb.gdel
 
