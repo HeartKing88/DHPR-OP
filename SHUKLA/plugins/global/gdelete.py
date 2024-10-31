@@ -4,7 +4,7 @@ from pyrogram import *
 from pyrogram.types import Message
 
 from .. import *
-from ..modules.data import (is_gdel_user,
+from ..modules.mongo.globals import (is_gdel_user,
     get_gdel_user, get_gdel_count,
     add_gdel_user, del_gdel_user)
 
